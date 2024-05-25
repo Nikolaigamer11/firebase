@@ -1,0 +1,67 @@
+/* src/components/CarouselSection.css */
+
+.carousel-section {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: relative;
+  text-align: center;
+  padding: 40px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-section.hovered .carousel-item:hover .carousel-image {
+  transform: scale(1.1);
+}
+
+.carousel-section.hovered .carousel-item:hover .carousel-content {
+  transform: translateY(-20px);
+}
+
+.carousel-content {
+  position: relative;
+  z-index: 2;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('E:/ankur/1vs code/react-portfolio/media/EPrvP9v8QXqFltLDj82KjQ.jpg') no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+  transition: transform 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.carousel-content h3,
+.carousel-content p {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.carousel-item:nth-child(1) .carousel-image {
+  background-image: url('E:/ankur/1vs code/react-portfolio/media/lAqFggj7StmLVlxlHEVOvw.jpg');
+}
+
+.carousel-item:nth-child(2) .carousel-image {
+  background-image: url('E:/ankur/1vs code/react-portfolio/media/sYRJSi3LSdOQdcEicxKgAw.jpg');
+}
+
+.carousel-item:nth-child(3) .carousel-image {
+  background-image: url('E:/ankur/1vs code/react-portfolio/media/UF3Ecrk9QSOQ18nCvh-wMQ.jpg');
+}
