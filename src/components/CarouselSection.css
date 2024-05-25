@@ -36,7 +36,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('./media/EPrvP9v8QXqFltLDj82KjQ.jpg') no-repeat center center;
+  background: url('../../media/UF3Ecrk9QSOQ18nCvh-wMQ.jpg') no-repeat center center;
   background-size: cover;
   z-index: 1;
   transition: transform 0.5s ease-in-out;
@@ -50,18 +50,18 @@
   margin: 0;
   padding: 20px;
   background: rgba(255, 255, 255, 0.8);
-  display: inline-block;
+  sYRJSi3LSdOQdcEicxKgAw.jpgdisplay: inline-block;
   border-radius: 5px;
 }
 
 .carousel-item:nth-child(1) .carousel-image {
-  background-image: url('./media/UF3Ecrk9QSOQ18nCvh-wMQ.jpg');
+  background-image: url('../../media/UF3Ecrk9QSOQ18nCvh-wMQ.jpg');
 }
 
 .carousel-item:nth-child(2) .carousel-image {
-  background-image: url('./media/sYRJSi3LSdOQdcEicxKgAw.jpg');
+  background-image: url('../../media/sYRJSi3LSdOQdcEicxKgAw.jpg');
 }
 
 .carousel-item:nth-child(3) .carousel-image {
-  background-image: url('./media/lAqFggj7StmLVlxlHEVOvw.jpg');
+  background-image: url('../../media/lAqFggj7StmLVlxlHEVOvw.jpg');
 }
